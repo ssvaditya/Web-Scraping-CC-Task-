@@ -190,5 +190,5 @@ CV = pd.DataFrame(
     'Certification': certification_f,
   })
 
-
+print(CV)
 CV.to_csv('webscrape.csv')
